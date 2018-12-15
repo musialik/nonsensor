@@ -1,3 +1,3 @@
-module FakeSensor
+module Nonsensor
   VERSION = "0.1.0"
 end
