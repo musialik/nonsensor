@@ -38,7 +38,8 @@ module Nonsensor
       @next_iteration = []
       @displacement = @initial_displacement
 
-      @current_iteration << [0, @batch_size - 1]
+      enqueue_segment(0, @batch_size - 1)
+      next_iteration
 
       while @current_iteration.any? do
         from, to = *(@current_iteration.shift)
