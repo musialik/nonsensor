@@ -8,7 +8,7 @@ module Nonsensor
       @start = start
       @initial_displacement = displacement
       @decay = (1.0 / 2 ** decay_power)
-      @batch_size = batch_size
+      @batch_size = batch_size.to_i
 
       @batch = []
     end
