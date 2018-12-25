@@ -7,11 +7,11 @@ Gem::Specification.new do |spec|
   spec.name          = "nonsensor"
   spec.version       = Nonsensor::VERSION
   spec.authors       = ["Michał Musialik"]
-  spec.email         = ["info@rubylogic.eu"]
+  spec.email         = ["michal@michalmusialik.com"]
 
   spec.summary       = "Generate streams of random data that look good on charts."
   spec.description   = "Generate streams of random data that look good on charts."
-  spec.homepage      = "http://rubylogic.eu/"
+  spec.homepage      = "https://github.com/musialik/nonsensor"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
